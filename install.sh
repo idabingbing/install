@@ -14,7 +14,7 @@ fi
 # anywhere you like.
 if [[ -z "${HOMEBREW_ON_LINUX-}" ]]; then
   HOMEBREW_PREFIX="/usr/local"
-  HOMEBREW_REPOSITORY="/usr/local/Homebrew"
+  HOMEBREW_REPOSITORY="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
   HOMEBREW_CACHE="${HOME}/Library/Caches/Homebrew"
 
   STAT="stat -f"
